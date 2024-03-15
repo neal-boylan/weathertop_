@@ -4,9 +4,14 @@
     <a href="/station/{{_id}}">
       {{name}}
     </a>
+    <a href="/station/{{_id}}" class="button">
+      <span class="icon is-small">
+        {{>icons/open }}
+      </span>
+    </a>
     <a href="/dashboard/deletestation/{{_id}}" class="button">
       <span class="icon is-small">
-        <i class="fas fa-trash"></i>
+        {{>icons/delete }}
       </span>
     </a>
   </h2>

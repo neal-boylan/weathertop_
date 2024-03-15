@@ -4,6 +4,8 @@
       <th>Code</th>
       <th>Temperature</th>
       <th>Pressure</th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -17,6 +19,20 @@
       </td>
       <td>
         {{pressure}}
+      </td>
+      <td>
+        <a href="/station/deletereading/{{_id}}" class="button">
+          <span class="icon is-small">
+            {{>icons/delete }}
+          </span>
+        </a>
+      </td>
+      <td>
+        <a href="/station/editreading/{{_id}}" class="button">
+          <span class="icon is-small">
+            {{>icons/edit }}
+          </span>
+        </a>
       </td>
     </tr>
     {{/each}}

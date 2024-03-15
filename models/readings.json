@@ -28,6 +28,13 @@
       "pressure": "1100",
       "_id": "066696fe-6ce4-4bfd-8dd9-2ad9362231d0",
       "stationid": "f43cbdce-8caf-4860-b098-b903dcca8645"
+    },
+    {
+      "code": "300",
+      "temp": "9",
+      "pressure": "998",
+      "_id": "3a38697b-72d5-4b5a-b632-fabfe6fb0693",
+      "stationid": "f43cbdce-8caf-4860-b098-b903dcca8645"
     }
   ]
 }
