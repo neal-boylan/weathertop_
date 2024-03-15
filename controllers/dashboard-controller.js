@@ -1,4 +1,4 @@
-import { stationStore } from "../models/stations-store.js";
+import { stationStore } from "../models/station-store.js";
 
 export const dashboardController = {
   async index(request, response) {

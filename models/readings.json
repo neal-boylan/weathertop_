@@ -1,0 +1,33 @@
+{
+  "file": "./models/readings.json",
+  "readings": [
+    {
+      "code": "200",
+      "temp": "15",
+      "pressure": "1000",
+      "_id": "4f412224-d29a-4ab7-8890-9c8ea6526bfa",
+      "stationsid": "f43cbdce-8caf-4860-b098-b903dcca8645"
+    },
+    {
+      "code": "200",
+      "temp": "15",
+      "pressure": "1000",
+      "_id": "4eab3452-a603-464a-8ffd-e39854d271a0",
+      "stationsid": "f43cbdce-8caf-4860-b098-b903dcca8645"
+    },
+    {
+      "code": "500",
+      "temp": "5",
+      "pressure": "1001",
+      "_id": "17befc98-57cd-4f2c-8ae0-7e1d4b2e68fe",
+      "stationid": "f43cbdce-8caf-4860-b098-b903dcca8645"
+    },
+    {
+      "code": "600",
+      "temp": "9",
+      "pressure": "1100",
+      "_id": "066696fe-6ce4-4bfd-8dd9-2ad9362231d0",
+      "stationid": "f43cbdce-8caf-4860-b098-b903dcca8645"
+    }
+  ]
+}
