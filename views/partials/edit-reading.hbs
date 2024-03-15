@@ -1,0 +1,17 @@
+<form class="box" action="/station/{{station._id}}/updatereading/{{reading._id}}" method="POST">
+  <label>Edit Reading Details:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <input class="input" type="text" placeholder={{reading.code}} name="code">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder={{reading.temp}} name="temp">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder={{reading.pressure}} name="pressure">
+      </div>
+    </div>
+  </div>
+  <button class="button is-primary">Edit Reading</button>
+</form>

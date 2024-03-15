@@ -16,9 +16,9 @@
       "stationsid": "f43cbdce-8caf-4860-b098-b903dcca8645"
     },
     {
-      "code": "500",
-      "temp": "5",
-      "pressure": "1001",
+      "code": "700",
+      "temp": "7",
+      "pressure": "999",
       "_id": "17befc98-57cd-4f2c-8ae0-7e1d4b2e68fe",
       "stationid": "f43cbdce-8caf-4860-b098-b903dcca8645"
     },
