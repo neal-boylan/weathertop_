@@ -2,13 +2,6 @@
   "file": "./models/stations.json",
   "stations": [
     {
-      "_id": "f2479060-2e3d-4828-86fb-9340ba4c9293"
-    },
-    {
-      "title": "Dublin",
-      "_id": "a2d3148d-0e4f-4aa4-bf33-13446aa33a81"
-    },
-    {
       "name": "Dublin",
       "_id": "f43cbdce-8caf-4860-b098-b903dcca8645"
     },

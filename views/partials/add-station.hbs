@@ -1,17 +1,20 @@
-<form class="ui stacked segment form" action="/dashboard/addstation" method="POST">
-  <div class="three fields">
-    <div class="field">
-      <label>Name</label>
-      <input placeholder="Name" type="text" name="name">
-    </div>
-    <div class="field">
-      <label>Latitude</label>
-      <input placeholder="00.00" type="text" name="lat">
-    </div>
-    <div class="field">
-      <label>Longitude</label>
-      <input placeholder="00.00" type="text" name="lng">
+<form class="box" action="/dashboard/addstation" method="POST">
+  <label>Add Station:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <label>Name</label>
+        <input placeholder="Stations Name" type="text" name="name">
+      </div>
+      <div class="field">
+        <label>Latitude</label>
+        <input placeholder="00.00" type="text" name="lat">
+      </div>
+      <div class="field">
+        <label>Longitude</label>
+        <input placeholder="00.00" type="text" name="lng">
+      </div>
     </div>
   </div>
-  <button class="ui blue submit button">Add Station</button>
+  <button class="button is-primary">Add Station</button>
 </form>
