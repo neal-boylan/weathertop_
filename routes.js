@@ -26,3 +26,5 @@ router.get("/signup", accountsController.signup);
 router.get("/logout", accountsController.logout);
 router.post("/register", accountsController.register);
 router.post("/authenticate", accountsController.authenticate);
+
+router.post("/station/:stationid/addreport", stationController.addreport);

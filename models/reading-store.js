@@ -18,6 +18,15 @@ export const readingStore = {
     return reading;
   },
 
+  async addReport(stationId, reading) {
+    await db.read();
+    reading._id = v4();
+    reading.stationid = stationId;
+    db.data.readings.push(reading);
+    await db.write();
+    return reading;
+  },
+
   async getReadingsByStationId(id) {
     await db.read();
     return db.data.readings.filter((reading) => reading.stationid === id);

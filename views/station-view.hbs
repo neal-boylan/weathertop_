@@ -1,9 +1,17 @@
-{{> menu}}
+{{> menu active="dashboard"}}
 
-<section class="section">
-  <div class="title">
-    {{station.name}}
+<section class="box has-text-centered">
+  <h3 class="is-3 title">
+    Weather Readings
+  </h3>
+  <div class="section">
+    {{> reading-table}}
   </div>
-	{{> list-readings}}
-  {{> add-reading}}
+  <section class="section">
+    <form action="/station/{{station._id}}/addreport" method="POST">
+      <div class="field is-grouped">
+        <button class="button is-link">Add Reading</button>
+      </div>
+    </form>
+  </section>
 </section>

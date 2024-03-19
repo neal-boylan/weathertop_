@@ -10,25 +10,18 @@
       "_id": "5c99f231-71e4-47e1-bde8-63824896f0e8"
     },
     {
-      "name": "Dublin",
-      "lat": "55",
-      "lng": "55",
-      "userid": "3b1e98fd-733e-480b-8bfb-b440fa8a064b",
-      "_id": "48ba4b6c-79e5-465d-b367-44195379954b"
-    },
-    {
-      "name": "Wicklow",
-      "lat": "44",
-      "lng": "44",
-      "userid": "3b1e98fd-733e-480b-8bfb-b440fa8a064b",
-      "_id": "70aa6a96-6515-4ad7-8a17-e44165733ad1"
-    },
-    {
       "name": "Galway",
       "lat": "",
       "lng": "",
       "userid": "14918208-3211-40e7-90d4-30edf2e9ee72",
       "_id": "4b9aa217-416c-4e0a-8095-2ddd03f3a070"
+    },
+    {
+      "name": "Dublin",
+      "lat": "53",
+      "lng": "-6",
+      "userid": "3b1e98fd-733e-480b-8bfb-b440fa8a064b",
+      "_id": "d1371341-623a-4c47-99fe-7521cc21fd30"
     }
   ]
 }
