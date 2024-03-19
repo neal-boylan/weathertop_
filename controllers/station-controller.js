@@ -34,13 +34,4 @@ export const stationController = {
     response.redirect("/station/" + station._id);
   },
 
-  async deleteReading(request, response) {
-    const station = await stationStore.getStationById(request.params.stationid);
-    const reading = await readingStore.getReadingById(request.params.readingid);
-
-    console.log(`editing reading "${reading._id}" from ${station.name}`);
-    await readingStore.editReading(reading._id);
-
-    response.redirect("/station/" + station._id);
-  },
 };
